@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Expense = require('./models/expenses');
+const Expense = require('./expenses');
 
 const app = express();
 const port = 3000;
